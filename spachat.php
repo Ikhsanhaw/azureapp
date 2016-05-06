@@ -422,7 +422,7 @@ $chatApp = new Controller(); ?><!doctype html>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-
+   <p> <center> <font size"18" >Simple Chat Apps Using Ajax PHP and Angularjs </font></center></p>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <script type="text/javascript">
