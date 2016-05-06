@@ -2,7 +2,7 @@
    /**
  * SPAChat - Simple PHP Angular Ajax Chat
  *
- * Thanks TO Joni2BAck
+ * Ikhsanhaw and bangJohn
  */
 
 
