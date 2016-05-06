@@ -416,7 +416,7 @@ $chatApp = new Controller(); ?><!doctype html>
     <meta charset="utf-8">
 
     <title>Simple PHP Angular Ajax Chat</title>
-    <meta name="author" content="Joni2Back - Jonas Sciangula Street - joni2back {{at}} gmail {{dot}} com">
+    <meta name="author" content="thanks to Om John yang udah ngajarin">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -674,7 +674,7 @@ $chatApp = new Controller(); ?><!doctype html>
     right:100%;
     top:15px;
     border:solid rgba(0,0,0,0);
-    border-right-color:#D2D6DE;
+    border-right-color:#00cc66;
     content:' ';
     height:0;
     width:0;
@@ -697,7 +697,7 @@ $chatApp = new Controller(); ?><!doctype html>
     right:auto;
     left:100%;
     border-right-color:rgba(0,0,0,0);
-    border-left-color:#D2D6DE;
+    border-left-color:#00cc66;
 }
 .right .direct-chat-img {
     float:right;
