@@ -724,7 +724,9 @@ input,button,.alert,.modal-content {
     margin-left:10px;
 }
 </style>
+
 <body ng-controller="ChatAppCtrl">
+   
     <div class="container">
         <h4 class="hidden-xs"></h4>
         <div class="box box-warning direct-chat direct-chat-warning">
@@ -809,6 +811,11 @@ input,button,.alert,.modal-content {
             </div>
         </div>
     </div>
+     <footer>
+  <center></center><p>Simple Chat Apps Using Angular Js Ajax PHP and Bootstrap</p>
+  </center>
+  
+</footer> 
 
     
 
