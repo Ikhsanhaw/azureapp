@@ -1,4 +1,4 @@
-# azureapp
+# SPChat
 simple Webchat using Ajax php. 
 By Ikhsanhaw and my Tutor John.
 ### Uses
