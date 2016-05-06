@@ -646,10 +646,10 @@ $chatApp = new Controller(); ?><!doctype html>
     margin-bottom:10px;
 }
 .direct-chat-messages,.direct-chat-contacts {
-    -webkit-transition:-webkit-transform .5s ease-in-out;
-    -moz-transition:-moz-transform .5s ease-in-out;
-    -o-transition:-o-transform .5s ease-in-out;
-    transition:transform .5s ease-in-out;
+    -webkit-transition:-webkit-transform .2s ease-in-out;
+    -moz-transition:-moz-transform .2s ease-in-out;
+    -o-transition:-o-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
 }
 .direct-chat-messages {
     -webkit-transform:translate(0,0);
