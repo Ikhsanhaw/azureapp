@@ -1,10 +1,10 @@
 <?php
-
-/**
+   /**
  * SPAChat - Simple PHP Angular Ajax Chat
  *
- * 
+ * Thanks TO Joni2BAck
  */
+
 
 namespace SPA_Common;
 
@@ -14,7 +14,7 @@ define('DB_HOST',           'ap-cdbr-azure-southeast-b.cloudapp.net');
 define('DB_NAME',           'Ikhsanhari');
 define('CHAT_HISTORY',      '150');
 define('CHAT_ONLINE_RANGE', '1');
-define('ADMIN_USERNAME_PREFIX', 'adm123');
+define('ADMIN_USERNAME_PREFIX', 'adminpass123');
 
 class SPA_MySQL_Database
 {
@@ -442,6 +442,12 @@ $chatApp = new Controller(); ?><!doctype html>
         };
     });
 
+    /**
+ * SPAChat - Simple PHP Angular Ajax Chat
+ *
+ * Thanks TO Joni2BAck
+ */
+
     ChatApp.controller('ChatAppCtrl', ['$scope', '$http', function($scope, $http) {
 
         $scope.urlListMessages = '?action=list';
@@ -675,8 +681,8 @@ $chatApp = new Controller(); ?><!doctype html>
     pointer-events:none;
 }
 .direct-chat-warning .right>.direct-chat-text {
-    background:#F39C12;
-    border-color:#F39C12;
+    background:#00cc66;
+    border-color:#00cc66;
     color:#FFF;
 }
 .right .direct-chat-text {
@@ -685,7 +691,7 @@ $chatApp = new Controller(); ?><!doctype html>
 }
 .direct-chat-warning .right>.direct-chat-text:after,
 .direct-chat-warning .right>.direct-chat-text:before {
-    border-left-color:#F39C12;
+    border-left-color:#00cc66;
 }
 .right .direct-chat-text:after,.right .direct-chat-text:before {
     right:auto;
@@ -720,7 +726,7 @@ input,button,.alert,.modal-content {
 </style>
 <body ng-controller="ChatAppCtrl">
     <div class="container">
-        <h4 class="hidden-xs">https://github.com/joni2back/spachat</h4>
+        <h4 class="hidden-xs"></h4>
         <div class="box box-warning direct-chat direct-chat-warning">
             <div class="box-body">
                 <div class="direct-chat-messages">
@@ -804,9 +810,7 @@ input,button,.alert,.modal-content {
         </div>
     </div>
 
-    <a href="https://github.com/joni2back/spachat">
-        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub">
-    </a>
+    
 
 </body>
 </html>
